@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: repeat(100, 10px);
+    grid-template-rows: repeat(100, 10px);
+    justify-content: center;
+    gap: 1px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+}
+
+.marker-shipwreck { background-color: brown; border-radius: 50%; }
+.marker-treasure { background-color: gold; border-radius: 50%; }
